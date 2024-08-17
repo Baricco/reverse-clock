@@ -1,0 +1,30 @@
+.hourArc {
+    position:absolute;
+  }
+  
+.minuteArc {
+  width: 100%;
+  position: absolute;
+  top:6.5%;
+  left:6.5%;
+}
+
+.secondArc {
+  width: 100%;
+  position: absolute;
+  top:7.2%;
+  left:6.8%;
+}
+
+.clock {
+  padding-top:30%;
+  position: relative;
+}
+
+.clockText {
+  color:white;
+  font-size: 3em;
+  position: absolute;
+  top:28%;
+  left:18%;
+}

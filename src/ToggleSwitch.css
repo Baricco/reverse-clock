@@ -1,0 +1,58 @@
+:root {
+    --switchPrimaryColor: #90badf;
+    --switchSecondayColor: #333333;
+}
+
+input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+label {
+	cursor: pointer;
+	width: 3em;
+	height: 1.5em;
+	background: var(--switchSecondayColor);
+	display: block;
+	border-radius: 100px;
+	position: relative;
+}
+
+label:after {
+	content: '';
+	position: absolute;
+	top: 4px;
+	left:5px;
+	width:  1em;
+	height: 1em;
+	background: var(--switchPrimaryColor);
+	border-radius: 90px;
+	transition: 0.3s;
+}
+
+input:checked + label:after{
+    background: var(--switchSecondayColor);
+}
+
+/* sfondo */
+input:checked + label {
+	background: var(--switchPrimaryColor);
+}
+
+input:checked + label:after {
+    /* top: 4px; */
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
+
+label:active:after {
+	width: 1.5em;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
