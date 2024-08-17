@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reverse-clock/static/css/main.fc6c9330.css",
+    "main.js": "/reverse-clock/static/js/main.3c5defb5.js",
+    "static/js/787.0941ac5b.chunk.js": "/reverse-clock/static/js/787.0941ac5b.chunk.js",
+    "index.html": "/reverse-clock/index.html",
+    "main.fc6c9330.css.map": "/reverse-clock/static/css/main.fc6c9330.css.map",
+    "main.3c5defb5.js.map": "/reverse-clock/static/js/main.3c5defb5.js.map",
+    "787.0941ac5b.chunk.js.map": "/reverse-clock/static/js/787.0941ac5b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc6c9330.css",
+    "static/js/main.3c5defb5.js"
+  ]
+}
